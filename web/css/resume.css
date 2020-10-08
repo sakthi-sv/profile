@@ -1,0 +1,67 @@
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+/* .header-section,footer{
+    
+    background-color:black;
+} */
+.header-section{
+    color: white;
+    background-color:black;
+    /* background-image: url('./assets/wave-svg/header.svg');
+    background-size: cover; */
+}
+h1{
+    font-size: 36px;
+    padding-left: 5px;
+    font-style: italic;
+}
+.contact-info{
+    text-align: right;
+    padding-right: 5px;
+}
+.contact-info > a{
+    color: white;
+    text-decoration: none;
+}
+h2{
+    margin-block-end: 0.3em;
+}
+qualification,name,event,role,.label{
+    font-weight: bold;
+}
+.edu-details{
+    margin-top: 0;
+}
+desc{
+    border-bottom: 2px;
+}
+.contact{
+    text-align: center;
+    padding: 5px;
+}
+.flex-container-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between ;
+    align-items: center;
+}
+.flex-container-footer-inner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+img{
+    cursor: pointer;
+    width: 100px;
+    height: 50px;
+}
+footer{
+    margin-top: 2rem;
+    /* color: white;
+    background-color:black; */
+    /* background-image: url('./assets/wave-svg/footer.svg');
+    background-size: cover; */
+}
